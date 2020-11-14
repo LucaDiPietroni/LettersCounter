@@ -1,0 +1,58 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.grid {
+    -fx-background-color: white;
+    -fx-padding: 20;
+    -fx-hgap: 20;
+    -fx-vgap: 10;
+}
+
+.thirdRow {
+	-fx-spacing: 100;
+	-fx-alignment: bottom-center;
+}
+
+.rightWing {
+	-fx-spacing: 10;
+	-fx-background-color: white;
+	-fx-padding: 25;
+}
+
+.label {
+	-fx-font-family: serif;
+	-fx-font-size: 20;
+}
+
+.Button {
+	-fx-background-color: lightgrey;
+	-fx-font-family: serif;
+	-fx-font-size: 20;
+	-fx-border-width:2px;
+	-fx-background-radius: 10px;
+	-fx-border-radius: 10px;
+	-fx-border-color: black;
+}
+
+.Button:hover {
+	-fx-background-color: grey;
+	-fx-font-family: serif;
+	-fx-font-size: 20;
+	-fx-border-width:2px;
+	-fx-background-radius: 10px;
+	-fx-border-radius: 10px;
+	-fx-border-color: black;
+}
+
+.radio-button {
+	-fx-font-family: serif;
+	-fx-font-size: 20;
+}
+
+.radio-button .dot {
+	-fx-padding: 2px;
+}
+
+.text-field {
+	-fx-border-radius: 0px;
+	-fx-border-color: black;
+}
